@@ -55,7 +55,7 @@ spec:
         # Optionally; This can be used to configure desired BIOS setting on a host:
         #biosConfigRef:
         #  filePath: "example-hw.profile"
-        bmcAddress: "redfish-virtualmedia://192.168.1.199:8000/redfish/v1/Systems/66506222-765b-4933-846e-1c8ede1c3291"
+        bmcAddress: "redfish-virtualmedia+http://192.168.1.199:8000/redfish/v1/Systems/66506222-765b-4933-846e-1c8ede1c3291"
                   # The secret name of the secret containing the bmc credentials for our bare metal node
         bmcCredentialsName:
           name: "bmc-ztp-secret-1"
