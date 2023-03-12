@@ -60,6 +60,7 @@ spec:
         bmcCredentialsName:
           name: "bmc-ztp-secret-1"
                     # The MAC Address of the NIC from the bare metal node connected to the machineNetwork
+        bmcDisableCertificateVerification: true
         bootMACAddress: "84:8b:cd:4d:15:d2"
         # Use UEFISecureBoot to enable secure boot
         bootMode: "UEFI"
