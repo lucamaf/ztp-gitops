@@ -12,7 +12,7 @@ spec:
   pullSecretRef:
     name: "disconnected-registry-pull-secret"
     # The OCP release we will be deploying otherwise specified (this can be configured per cluster as well)
-  clusterImageSetNameRef: "img4.12.0-x86-64-appsub"
+  clusterImageSetNameRef: "openshift-4.12.0"
   # The OCP release we will be deploying otherwise specified (this can be configured per cluster as well)
   sshPublicKey: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCIwy1xjLDgiUIPtYEoI9fn0/Vy9m1atkjGHXURZd+gjLYzgqP8gyUFjtRLkZsPSGmi4m7dBT/DH+Es1NnHKqY9xfDtScayt7B0v6T1W16jcZim6EDFQOHKfo1K7wYlgrd2OteIxUGRVsQ/rjg5ZFvPUsdyVk1yTTvkNzcdhk6XPtScUjIFOaB/ncFh/Gj2xhx05QyHaqbqNuPGsSoO6IbjyojtLAZQYDXRkeksVRrmLdaTh+P7TbaEamRO6ncLV1nlLXt9cjPPWQDbDqpr5O7bJG2MdFA5g4o66mbkm7siGcEsUdg0xn4darcapTHKHQa7EOg9lgID/9cE/QcKPxwCFlQ70mcPFsMsoGHB0jUcoz3wsj3/2Mw326T9EeJE3sUnRojgpLGGLrnAn8tcyZOVx5Vy1GuW2rXqW+x4HpulTOZbDv+ZoUPy0xt4dUM1R4M/9Wvq+SKVsgZXvkUPGthUzleqWEOrdaOQO8RFrWZx4JzKtGBj6NGzntjegU+sykk= luferrar@x1-lmf"
   clusters:
